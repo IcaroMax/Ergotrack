@@ -1,0 +1,30 @@
+# Virtual Environment
+venv_ergotrack/
+.venv/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local databases & artifacts
+*.db
+*.sqlite3
+out/
+
+# IDE / Editors
+.vscode/
+.idea/
+*.swp
+GEMINI_CONTEXT.md
+
+*.db
+*.db-wal
+*.db-shm
